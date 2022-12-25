@@ -55,6 +55,7 @@
 
 .header__link {
 color: #2f80ed;
+text-decoration: none;
 }
 
 .header__main-illustration{
@@ -136,11 +137,12 @@ color: #2f80ed;
     flex-direction: column;
     align-items: center;
     border: 5px solid rgb(233, 10, 10);
+    margin: 0;
+
   }
 
   .digits__title {
-    margin-top: 100px;
-    margin-bottom: 20px;
+    margin: 100px 0 0 0;
     width: 60%;
     line-height: 1.15;
     text-align: center;
@@ -154,7 +156,7 @@ color: #2f80ed;
     text-align: center;
     font-size: 24px;
     font-weight: normal;
-    margin: 0;
+    margin: 20px 0 0 0;
     border: 5px solid rgb(233, 10, 10);
 
   }
@@ -207,14 +209,26 @@ color: #2f80ed;
     background-repeat: no-repeat;
     background-size: 867 637px;
     background-position: bottom left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0;
+
+
+
     border: 5px solid rgb(240, 4, 4);
 
   }
 
     .feynman__title {
+    width: 648px;
     line-height: 1.15;
     font-size: 120px;
     font-weight: 600;
+    text-align: center;
+    border: 5px solid rgb(240, 4, 4);
+    margin: 100px 0 0 0;
   }
 
   .feynman__subtitle {
@@ -222,6 +236,9 @@ color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-align: center;
+  border: 5px solid rgb(240, 4, 4);
+  margin: 70px 0 0 0;
 
   }
 
@@ -230,6 +247,11 @@ color: #2f80ed;
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  text-decoration: none;
+  border: 5px solid rgb(240, 4, 4);
   }
 
 
@@ -241,6 +263,7 @@ color: #2f80ed;
     align-items: center;
     background-color: #1f1f1f;
     border: 5px solid rgb(233, 10, 10);
+    margin: 0;
   }
   .table__cell_theme_dark {
     color: white;
@@ -251,29 +274,74 @@ color: #2f80ed;
  }
 
   .kaufman__title {
-    margin-top: 90px;
-    margin-bottom: 20px;
+    margin: 90px 0 0 0;
     width: 60%;
     line-height: 1.15;
-    text-align: center;
     font-size: 60px;
     font-weight: 600;
+    text-align: center;
     border: 5px solid rgb(55, 7, 146);
   }
 
-  .kaufman__subtitle{
+  .kaufman__subtitle {
+    margin: 20px 0 0 0;
     width: 60%;
     line-height: 34px;
     text-align: center;
     font-size: 24px;
     font-weight: normal;
-    margin: 0;
     border: 5px solid rgb(233, 10, 10);
 
   }
 
 
   .footer {
+min-height: 350px;
+display: flex;
 
+
+border: 5px solid rgb(233, 10, 10);
   }
 
+ .footer__columns {
+  width: 90%;
+  display: flex;
+
+  border: 5px solid rgb(233, 10, 10);
+ }
+
+ .footer__columns_content_copyright {
+  flex-basis: 711px;
+ }
+
+.footer__columns_content_info {
+
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__columns_content_social {
+
+}
+ .logo_place_footer {
+
+ }
+ .footer__author {
+
+ }
+ .footer__column-heading {
+
+ }
+ .footer__column-links {
+
+ }
+ .footer__social-icon {
+
+ }
+ .footer__column-link {
+
+ }
