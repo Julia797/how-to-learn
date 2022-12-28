@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   background: #f2f2f2;
+  border: 2px solid rgb(240, 4, 4);
        /* выше установили ограничения для секции */
   }
 
@@ -24,12 +25,14 @@
   height: 32px;
   width: 228px;
   background-repeat: no-repeat;
+  border: 2px solid rgb(240, 4, 4);
 }
  .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
   background-image: url(/images/logo_place_header.svg);
+  border: 2px solid rgb(240, 4, 4);
 }
 
 .header__title {
@@ -39,31 +42,26 @@
   font-weight: 600;
   margin-left: 64px;
   z-index: 1;
+  border: 2px solid rgb(240, 4, 4);
 }
 
 .header__subtitle {
-  height: 25px;
   width: 388px;
+  height: 25px;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
   left: 64px;
   bottom: 30px;
   z-index: 1;
+  border: 2px solid rgb(240, 4, 4);
 }
 
 .header__link {
 color: #2f80ed;
 text-decoration: none;
-}
-
-.header__main-illustration{
-  height: 608px;
-  width: 765px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
+z-index: 1;
+border: 2px solid rgb(240, 4, 4);
 }
 
 .header__square-pic {
@@ -75,19 +73,27 @@ text-decoration: none;
   top: 64px;
 }
 
+.header__main-illustration{
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .content {
   margin: 0;
   padding: 0;
 }
 
 .description {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 0;
   display: flex;
   justify-content: center;
 }
 
 .two-columns {
+  margin: 100px 0;
   width: 80%;
   display: flex;
   justify-content: center;
@@ -99,6 +105,7 @@ text-decoration: none;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -138,7 +145,7 @@ text-decoration: none;
   line-height: 1.15;
   text-align: center;
   font-size: 60px;
-   font-weight: 600;
+  font-weight: 600;
   border: 2px solid rgb(55, 7, 146);
   }
 
