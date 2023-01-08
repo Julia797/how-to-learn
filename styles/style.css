@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   background: #f2f2f2;
+  overflow: hidden;
 }
 
 .logo {
@@ -129,7 +130,6 @@
   align-items: center;
   margin: 0;
   padding: 100px 0;
-  border: 2px solid red;
 }
 
 .section-title {
@@ -356,27 +356,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 100px 0 0 0;
-  border: 2px solid red;
+
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
+  column-gap: 100px;
   list-style: none;
   width: 920px;
   margin: 0;
   padding: 0;
-  border: 2px solid red;
+
 }
 
 .cards__item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 2px solid red;
+
   flex-wrap: wrap;
   width: 240px;
   margin: 60px 0 0 0;
@@ -397,6 +397,7 @@
   font-size: 24px;
   font-weight: 600;
   text-align: center;
+  margin: 0 0 16px 0;
 }
 
 .cards__description {
@@ -405,6 +406,7 @@
   font-size: 18px;
   font-weight: normal;
   text-align: center;
+  margin: 0;
 }
 
 .oakley {
@@ -432,3 +434,120 @@
 
 }
 
+.khan {
+  background: #f2f2f2;
+  padding: 105px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.khan__container {
+  width: 80%;
+}
+
+.khan__author {
+  border: 2px solid red;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.khan__title {
+  border: 2px solid red;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0 0 50px 0;
+}
+
+.khan__quote {
+  border: 2px solid red;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 36px 0;
+  max-width: 790px;
+}
+
+.khan__quote-author {
+  border: 2px solid red;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
+.khan__quote-author-subline {
+  border: 2px solid red;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight:normal;
+  margin: 0 0 68px 0;
+}
+
+.khan__book-container {
+  display: flex;
+  border: 2px solid red;
+}
+
+.khan__book-pic {
+  border: 2px solid red;
+  height: 620px;
+  width: 608px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.khan__buy-link {
+  border: 2px solid red;
+  line-height: 42px;
+  font-size: 24px;
+  font-weight:normal;
+  color: #2f80ed;
+  text-decoration: none;
+  margin: 0 0 0 48px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotation linear 20s infinite;
+  }
+
+  .resources {
+    padding: 0;
+    margin: 100px 0 217px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+  }
+
+  .resources__logo-zone {
+    margin: 80px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 1100px
+    border: 2px solid red;
+  }
+
+  .resources__link {
+
+
+  }
+  .resources__logo {
+    width: 270px;
+    height: 38px;
+
+    border: 2px solid red;
+  }
