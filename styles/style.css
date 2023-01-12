@@ -25,15 +25,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 .content {
   margin: 0;
   padding: 0;
@@ -41,101 +32,9 @@
 
 
 
-.two-columns {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-}
-
-.two-columns__brief {
-  max-width: 175px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2f80ed;
-  margin: 0;
-}
-
-.two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
-}
-
-.two-columns__paragraph:first-of-type {
-  margin-top: 0;
-}
-
-.two-columns__paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 30px 0 0 0;
-}
-
-.two-columns__span-accent {
-  font-weight: 600;
-}
 
 
 
-
-
-
-
-.table {
-  width: 1100px;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-}
-
-.table__cell {
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-right: 0;
-  margin-top: 60px;
-  padding: 0;
-}
-
-.table__heading {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  margin: 0;
-}
-
-.table__text {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 20px 0 0 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-.section-title_theme_dark {
-  margin: 0;
-  color: white;
-  z-index: 1;
-}
-
-.section-subtitle_theme_dark {
-  color: white;
-  z-index: 1;
-}
 
 .table_theme_dark {
   margin: 0;
@@ -218,81 +117,6 @@
   margin-right: 10px;
 }
 
-
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  column-gap: 100px;
-  list-style: none;
-  width: 920px;
-  margin: 0;
-  padding: 0;
-
-}
-
-.cards__item {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 240px;
-  margin: 60px 0 0 0;
-}
-
-.cards__image {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-  margin: 0 40px 43px 40px;
-}
-
-.cards__title {
-  border: 2px solid red;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  text-align: center;
-  margin: 0 0 16px 0;
-}
-
-.cards__description {
-  border: 2px solid red;
-  line-height: 23px;
-  font-size: 18px;
-  font-weight: normal;
-  text-align: center;
-  margin: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .resources__logo-zone {
     margin: 80px 0 0 0;
     padding: 0;
@@ -312,12 +136,4 @@
     height: 38px;
     border: 2px solid red;
   }
-  .link {
-    text-decoration: none;
 
-  }
-
-  .link:hover {
-    opacity: .4;
-    transition: 1s;
-  }
